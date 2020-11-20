@@ -2,7 +2,7 @@
 
 ## 소공 텀프용 리포지토리
 
-##11월 18일 개발 사항
+## 11월 18일 개발 사항
 
 참고 사이트: https://tutorial.djangogirls.org/ko/deploy/
 참고 사이트: https://velog.io/@vlvksbdof12/Python-Django-%EA%B8%B0%EC%B4%88-%EC%A0%9C-1%EA%B0%95
@@ -14,4 +14,4 @@
 - 장고 서버 실행 명령어: python manage.py runserver (콘솔창에서 software_Engineering\safeRes까지 이동 한 후에 입력할것!)
   -콘솔창에서 해당 디렉토리까지 이동한 상태에서 실행시켜주세요!
 
--api호출 방식은 ajax혹은 rest api를 통해 호
+-api호출 방식은 ajax혹은 rest api를 통해 호출합니다
