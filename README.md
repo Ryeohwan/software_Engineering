@@ -5,6 +5,7 @@
 ## 11월 18일 개발 사항
 
 참고 사이트: https://tutorial.djangogirls.org/ko/deploy/
+
 참고 사이트: https://velog.io/@vlvksbdof12/Python-Django-%EA%B8%B0%EC%B4%88-%EC%A0%9C-1%EA%B0%95
 
 지도 삽입 참고 사이트: https://apis.map.kakao.com/web/guide/
