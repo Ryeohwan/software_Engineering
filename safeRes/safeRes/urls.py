@@ -18,5 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #기본 장고 홈페이지의 관리자 페이지를 연다
     path('',include('safeResApp.urls')),
+    #기본 페이지를 sfaeResApp에 있는 url을 열것이다 라는 의미
 ]

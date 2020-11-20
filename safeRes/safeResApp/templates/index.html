@@ -1,4 +1,5 @@
 {% load static %}
+<!--static에있는 부트스트랩 파일 실행을 위한 연동 코드-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,10 +12,10 @@
 
   <title>Simple Sidebar - Start Bootstrap Template</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap core CSS, 작성시 %static을 사용하여 정적 위치를 별도로 지정하여야 한다.-->
   <link rel="stylesheet" href='{% static "vendor/bootstrap/css/bootstrap.min.css" %}'>
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles for this template, 작성시 %static을 사용하여 정적 위치를 별도로 지정하여야 한다.-->
   <link rel="stylesheet" href='{% static "css/simple-sidebar.css" %}'>
 
 </head>
@@ -73,7 +74,17 @@
       <div class="container-fluid">
         <h1 class="mt-4">Simple Sidebar</h1>
         <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+        <div id="map" style="width:1000px;height:800px;"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=36b16dcb36f9ecff2c8fb56fdf2942b9"></script>
+        <script>
+        var container = document.getElementById('map');
+        var options = {
+          center: new kakao.maps.LatLng(33.450701, 126.570667),
+          level: 3
+        };
+
+        var map = new kakao.maps.Map(container, options);
+        </script>
       </div>
     </div>
     <!-- /#page-content-wrapper -->
