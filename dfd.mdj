@@ -1,0 +1,581 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF1jYv+ZF2LgdQ=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF1jYv+ZV2MRIo=",
+					"_parent": {
+						"$ref": "AAAAAAF1jYv+ZF2LgdQ="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF1jYwUOV2Says=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jYwUN12QvU0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYwUOV2TiVg=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYwUOV2Says="
+									},
+									"font": "Arial;13;0",
+									"left": 268,
+									"top": 90,
+									"width": 65.76171875,
+									"height": 26,
+									"text": "안심 식당 리스트",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYwUOl2UWBI=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYwUOV2Says="
+									},
+									"font": "Arial;13;0",
+									"left": 253,
+									"top": 90,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 80,
+							"width": 95.76171875,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAF1jYwUOV2TiVg="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1jYwUOl2UWBI="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF1jYxMq12fUXI=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jYxMql2dKZU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jbit3vhSHAo=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYxMq12fUXI="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 437,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYxMrF2lKwA=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYxMq12fUXI="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 437,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYxMq12g0yU=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYxMq12fUXI="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 442,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "웹 방문자",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYxMq12hxGw=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYxMq12fUXI="
+									},
+									"font": "Arial;13;0",
+									"left": 152,
+									"top": 208,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 432,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF1jYxMq12g0yU="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1jYx5Ul2sqyc=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYx5Ul2tEr4=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYx5Ul2sqyc="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 208,
+									"width": 65,
+									"height": 26,
+									"text": "식당 정보제공",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYx5Ul2uHiQ=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYx5Ul2sqyc="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 181,
+									"width": 65,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 176,
+							"width": 85,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1jYx5Ul2tEr4="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1jYx5Ul2uHiQ="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1jYzEuF2+iHM=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYzEuF2/hnY=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYzEuF2+iHM="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 208,
+									"width": 65,
+									"height": 26,
+									"text": "식당 정보제공",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jYzEuF3A6TI=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYzEuF2+iHM="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 181,
+									"width": 65,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 376,
+							"top": 176,
+							"width": 85,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1jYzEuF2/hnY="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1jYzEuF3A6TI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1jYz+W13L6tI=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jYz+Wl3Jxh8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1jYz+W13MObk=",
+									"_parent": {
+										"$ref": "AAAAAAF1jYz+W13L6tI="
+									},
+									"model": {
+										"$ref": "AAAAAAF1jYz+Wl3Jxh8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 280,
+									"top": 217,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1jYz+W13L6tI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1jYx5Ul2sqyc="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1jYwUOV2Says="
+							},
+							"lineStyle": 2,
+							"points": "281:127;281:208;212:208",
+							"nameLabel": {
+								"$ref": "AAAAAAF1jYz+W13MObk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1jY15CF3UxKo=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jY15CF3Stu4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1jY15CF3VXLI=",
+									"_parent": {
+										"$ref": "AAAAAAF1jY15CF3UxKo="
+									},
+									"model": {
+										"$ref": "AAAAAAF1jY15CF3Stu4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 309,
+									"top": 187,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1jY15CF3UxKo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1jYzEuF2+iHM="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1jYwUOV2Says="
+							},
+							"lineStyle": 2,
+							"points": "309:127;309:208;376:208",
+							"nameLabel": {
+								"$ref": "AAAAAAF1jY15CF3VXLI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1jY5ccF3zG9Y=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jY5ccF3xCFc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1jY5ccF302Go=",
+									"_parent": {
+										"$ref": "AAAAAAF1jY5ccF3zG9Y="
+									},
+									"model": {
+										"$ref": "AAAAAAF1jY5ccF3xCFc="
+									},
+									"font": "Arial;13;0",
+									"left": 185,
+									"top": 283,
+									"width": 56.5703125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1jY5ccF3zG9Y="
+									},
+									"edgePosition": 1,
+									"text": "식당 정보"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1jYxMq12fUXI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1jYx5Ul2sqyc="
+							},
+							"points": "178:244;178:304;248:304;248:432",
+							"nameLabel": {
+								"$ref": "AAAAAAF1jY5ccF302Go="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1jY6kfl3/iuE=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jY6kfl39oCw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1jY6kfl4A74Q=",
+									"_parent": {
+										"$ref": "AAAAAAF1jY6kfl3/iuE="
+									},
+									"model": {
+										"$ref": "AAAAAAF1jY6kfl39oCw="
+									},
+									"font": "Arial;13;0",
+									"left": 335,
+									"top": 279,
+									"width": 69.5703125,
+									"height": 13,
+									"alpha": -0.9827941078628122,
+									"distance": 21.633307652783937,
+									"hostEdge": {
+										"$ref": "AAAAAAF1jY6kfl3/iuE="
+									},
+									"edgePosition": 1,
+									"text": "식당 위치맵"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1jYxMq12fUXI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1jYzEuF2+iHM="
+							},
+							"lineStyle": 2,
+							"points": "408:244;408:304;354:304;354:432",
+							"nameLabel": {
+								"$ref": "AAAAAAF1jY6kfl4A74Q="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1jeFU+viteWo=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYv+ZV2MRIo="
+							},
+							"model": {
+								"$ref": "AAAAAAF1jeFU+virkcU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jeFU+viu5fI=",
+									"_parent": {
+										"$ref": "AAAAAAF1jeFU+viteWo="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 208,
+									"width": 65,
+									"height": 26,
+									"text": "식당 위치맵제공",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1jeFU+vivAsU=",
+									"_parent": {
+										"$ref": "AAAAAAF1jeFU+viteWo="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 181,
+									"width": 65,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 376,
+							"top": 176,
+							"width": 85,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1jeFU+viu5fI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1jeFU+vivAsU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF1jYwUN12QvU0=",
+					"_parent": {
+						"$ref": "AAAAAAF1jYv+ZF2LgdQ="
+					},
+					"name": "안심 식당 리스트",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1jYz+Wl3Jxh8=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYwUN12QvU0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1jYwUN12QvU0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1jY15CF3Stu4=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYwUN12QvU0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1jYwUN12QvU0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF1jYxMql2dKZU=",
+					"_parent": {
+						"$ref": "AAAAAAF1jYv+ZF2LgdQ="
+					},
+					"name": "웹 방문자"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1jYx5Ul2qomI=",
+					"_parent": {
+						"$ref": "AAAAAAF1jYv+ZF2LgdQ="
+					},
+					"name": "식당 정보제공",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1jY5ccF3xCFc=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							},
+							"name": "식당 정보",
+							"source": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							},
+							"target": {
+								"$ref": "AAAAAAF1jYxMql2dKZU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1jY6kfl39oCw=",
+							"_parent": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							},
+							"name": "식당 위치맵",
+							"source": {
+								"$ref": "AAAAAAF1jYx5Ul2qomI="
+							},
+							"target": {
+								"$ref": "AAAAAAF1jYxMql2dKZU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1jeFU+virkcU=",
+					"_parent": {
+						"$ref": "AAAAAAF1jYv+ZF2LgdQ="
+					},
+					"name": "식당 위치맵제공"
+				}
+			]
+		}
+	]
+}
