@@ -2,7 +2,7 @@
 <html lang="ko">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -25,25 +25,25 @@
   <!-- jquery이용하는 부분 -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Covid-19 안심식당</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Info">Info</a></li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Map">Map</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#CovidNow">CovidNow</a></li>
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#report">Report</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- Masthead-->
-  <header class="masthead bg-primary text-white text-center">
+  <header class="masthead bg-warning text-white text-center">
     <div class="container d-flex align-items-center flex-column">
       <!-- Masthead Avatar Image-->
       <img class="masthead-avatar mb-5" src="../static/vendor/bootstrap/assets/img/avataaars.svg" alt="" />
@@ -59,11 +59,11 @@
       <p class="masthead-subheading font-weight-light mb-0">Produced by Team Senior</p>
     </div>
   </header>
-  <!-- Info Section-->
-  <section class="page-section portfolio" id="Info">
+  <!-- Map Section-->
+  <section class="page-section portfolio" id="Map">
     <div class="container">
-      <!-- Info Section Heading-->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Info</h2>
+      <!-- Map Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Map</h2>
       <!-- Icon Divider-->
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
@@ -71,41 +71,40 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <!-- Info Grid Items-->
+      <!-- Map Grid Items-->
       <div class="row justify-content-center">
         <!-- 지도를 표시할 div 입니다 -->
+        <div id="map" style="width:100%;height:350px;"></div>
 
+        <script type="text/javascript" src="https:////dapi.kakao.com/v2/maps/sdk.js?appkey=10e59cd0777e1753af2d34b4cd59e562"></script>
+        <script>
+          var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+            mapOption = {
+              center: new kakao.maps.LatLng(37.566770, 126.978663), // 지도의 중심좌표
+              level: 4 // 지도의 확대 레벨
+            };
+
+          // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+          var map = new kakao.maps.Map(mapContainer, mapOption);
+        </script>
       </div>
     </div>
 
-    <div id="map" style="width:750px;height:350px;"></div>
 
-    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10e59cd0777e1753af2d34b4cd59e562"></script>
-    <script>
-      var mapContainer = document.getElementById('map'), // 지도를 표시할 div
-        mapOption = {
-          center: new kakao.maps.LatLng(37.56682, 126.97865), // 지도의 중심좌표
-          level: 4, // 지도의 확대 레벨
-          mapTypeId: kakao.maps.MapTypeId.ROADMAP // 지도종류
-        };
-
-      // 지도를 생성한다
-      var map = new kakao.maps.Map(mapContainer, mapOption);
-    </script>
 
   </section>
-  <!-- About Section-->
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <!-- CovidNow Section-->
+  <section class="page-section bg-warning text-white mb-0" id="CovidNow">
     <div class="container">
-      <!-- About Section Heading-->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <!-- CovidNow Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-white">CovidNow</h2>
       <!-- Icon Divider-->
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fas fa-plus"></i></div>
         <div class="divider-custom-line"></div>
       </div>
-      <!-- About Section Content-->
+      <!-- CovidNow Section Content-->
       <div class="row">
         <div class="col-lg-4 ml-auto">
           <p class="lead">식당 관련 이미지.</p>
@@ -117,7 +116,7 @@
 
 
 
-      <!-- About Section Button-->
+      <!-- CovidNow Section Button-->
       <div class="text-center mt-4">
         <a class="btn btn-xl btn-outline-light" onclick="window.open('http://ncov.mohw.go.kr/','new','resizable=yes,scrollbars=yes')">
           코로나 확진자 추이
@@ -173,7 +172,7 @@
             </div>
             <br />
             <div id="success"></div>
-            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+            <div class="form-group"><button class="btn btn-warning btn-xl" id="sendMessageButton" type="submit">Send</button></div>
           </form>
         </div>
       </div>
@@ -198,7 +197,7 @@
           <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
           <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
         </div>
-        <!-- Footer About Text-->
+        <!-- Footer CovidNow Text-->
         <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">Thanks for visiting!</h4>
         </div>
